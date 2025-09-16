@@ -21,8 +21,19 @@ import pathlib
 import streamlit as st
 
 from agno.agent import Agent
+
+# NOTE: you can use any of the Agno supported LLM's
+# @see: https://docs.agno.com/concepts/models/introduction for complete list
+# We are using Google Gemini in our example
+
+# NOTE: you'll need to add the appropriate API key to your .env file
 from agno.models.google import Gemini
 import google.generativeai as genai
+
+# for OpenAI
+
+# for Anthropic
+# add ANTHROPIC_API_KEY=*** to your .env file
 
 from tools.financial_analysis_tools import FinancialAnalysisTools
 
@@ -59,6 +70,8 @@ if config is None:
 
 financial_analysis_agent = Agent(
     name="Financial Analysis Agent",
+    # @see: https://docs.agno.com/concepts/models/introduction to
+    # choose your model from list of supported models
     model=Gemini(id="gemini-2.0-flash", temperature=0.0),
     # model=google_gemini_llm,
     tools=[FinancialAnalysisTools(enable_all=True)],
