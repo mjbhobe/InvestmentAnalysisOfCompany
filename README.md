@@ -52,7 +52,7 @@ $CODE_ROOT> uv sync   # ins
 
 ## Potential enhancements
 For a more thorough analysis, following enhancements are recommended:
-1. Sentiment analysis from latest news feeds & social media feeds
-2. Peer-comparison: compare performance of this company with top 3-4 peers in the same category
+1. **Adding sentiment analysis**: analyse overall market sentiment for this stock/company from news feeds, social media comments etc.
+2. **Adding peer-comparison**: compare performance of this company with top 3-4 peers in the same business category (such as IT Services, Defence, Manufacturing etc.)
 3. Analysis of Financial Statements & management commentary
 
