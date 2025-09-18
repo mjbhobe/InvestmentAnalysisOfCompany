@@ -16,7 +16,7 @@ This application is a _lite_ version of the above process, focusing on some aspe
 
 In our application, we focus on analyzing historical financial ratios using data from Yahoo Finance only. This roughly covers step # 3 from the above list. We are taking this approach only because data is freely available and fairly reliable.
 
-The Financial analysis will be powered by a single Agent, which will leverage several tools to calculate financial ratios (Financial ratios such as liquidity ratios, profitability ratios, efficiency ratios, valuation ratios, leverage ratios and performance and growth metrics) across a 5 year period. These ratios will then be analyzed by an LLM (Google Gemini Flash in our case, but you can use any LLM of your choice [with code modifications, of course!]). The LLM will combine it's observations for each set of financial ratios and then give an overall recommendation on the long-term investment potential of the stock.
+The Financial analysis in this application is powered by a single Agent, which will leverage several tools that calculate financial ratios (such as liquidity ratios, profitability ratios, efficiency ratios, valuation ratios, leverage ratios and performance and growth metrics) across a 5 year period. These ratios will then be analyzed by an LLM (Google Gemini Flash in our case). The LLM will list it's observations for every category of Financial ratios .
 
 ## Technology Stack
 1. Python (>= 3.12) 

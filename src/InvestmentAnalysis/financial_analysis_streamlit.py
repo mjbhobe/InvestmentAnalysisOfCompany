@@ -117,7 +117,7 @@ if analyze_button and stock_symbol:
 
         st.success("Analysis completed!")
         st.markdown(analysis)
-        st.markdown(metrics)
+        #st.markdown(metrics)  
 
         # Display analysis in an expandable container
         # with st.expander("View Detailed Analysis", expanded=True):

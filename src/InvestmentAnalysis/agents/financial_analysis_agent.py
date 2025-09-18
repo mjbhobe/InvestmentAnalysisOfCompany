@@ -72,7 +72,7 @@ financial_analysis_agent = Agent(
     name="Financial Analysis Agent",
     # @see: https://docs.agno.com/concepts/models/introduction to
     # choose your model from list of supported models
-    model=Gemini(id="gemini-2.0-flash", temperature=0.0),
+    model=Gemini(id="gemini-2.5-flash", temperature=0.0),
     # model=google_gemini_llm,
     tools=[FinancialAnalysisTools(enable_all=True)],
     # goal=dedent(

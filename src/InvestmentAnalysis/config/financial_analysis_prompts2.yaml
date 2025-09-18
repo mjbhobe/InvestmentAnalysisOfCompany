@@ -29,9 +29,12 @@ prompts:
     A professional financial analysis report in markdown format:
 
     ## Financial Analysis for {company long name}
+
+    ### Overview
     {Company's Business Summary}
 
     ### Financial Ratio Analysis
+
     ##### Liquidity Ratios
     {Liquidity ratios calculation table}
     {observations on the liquidity ratios}
